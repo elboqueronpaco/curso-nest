@@ -13,7 +13,7 @@ import { CreateAwardDto } from './dto/create-award.dto';
 import { UpdateAwardDto } from './dto/update-award.dto';
 
 @ApiTags('awards')
-@Controller('api/v1/awards')
+@Controller('awards')
 export class AwardsController {
   constructor(private readonly awardsService: AwardsService) {}
 
